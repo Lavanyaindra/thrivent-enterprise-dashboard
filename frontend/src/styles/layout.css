@@ -1,0 +1,16 @@
+.app { display: flex; height: 100vh; background:#f8fafc; }
+.content { flex:1; padding:24px; overflow:auto; }
+.stats { display:flex; gap:16px; }
+.stat-card { background:#fff; padding:20px; border-radius:8px; min-width:180px; }
+
+.layout {
+    display: flex;
+    min-height: 100vh;
+    background: #f8fafc;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 24px 32px;
+  }
+  

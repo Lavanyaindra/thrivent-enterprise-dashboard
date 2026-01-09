@@ -1,0 +1,87 @@
+.enterprise-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    font-size: 14px;
+  }
+  
+  .enterprise-table thead {
+    background: #f1f5f9;
+  }
+  
+  .enterprise-table th {
+    padding: 14px 16px;
+    text-align: left;
+    font-weight: 600;
+    color: #334155;
+  }
+  
+  .enterprise-table td {
+    padding: 14px 16px;
+    border-top: 1px solid #e5e7eb;
+  }
+  
+  .enterprise-table tbody tr:hover {
+    background: #f8fafc;
+  }
+  
+  /* STATUS TAGS */
+  .status {
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .status.active { background: #dcfce7; color: #166534; }
+  .status.completed { background: #e0e7ff; color: #3730a3; }
+  .status.in { background: #fef3c7; color: #92400e; }
+  .status.delayed { background: #fee2e2; color: #991b1b; }
+  
+
+.pagination {
+    margin-top: 16px;
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+  }
+  
+  .pagination button {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background: #0047ab;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+
+
+  .status.on-track {
+    background: #dcfce7;
+    color: #166534;
+  }
+  
+  .status.at-risk {
+    background: #fef3c7;
+    color: #92400e;
+  }
+  
+  .status.delayed {
+    background: #fee2e2;
+    color: #991b1b;
+  }
+  
+  
